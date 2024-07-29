@@ -1,0 +1,406 @@
+
+#web_game_shell {
+	clear:both;
+	height:465px;
+	background: url(../images/web_game_bkgd.png) 40px 0 no-repeat;
+	margin:0;
+}
+#game {
+	height:432px;
+	width:552px;
+	float:left;
+	position:relative;
+	top:16px;
+	left:57px;
+	border:0px solid #fff;
+}
+#arrow_med {
+	behavior: url(/web/20091002230105im_/http://www.popcap.com/images/iepngfix.htc);
+	width:333px;
+	height:286px;
+	background: url(../images/arrow_big.png) 0 0 no-repeat;
+	float:right;
+	position:relative;
+	top:13px;
+	margin-bottom:14px;
+}
+
+*html #arrow_med {
+	background: url(../images/arrow_big.jpg) 0 0 no-repeat;
+}
+
+#arrow_med p { 
+	font-size:12px;
+	line-height:12px;
+	font-weight:bold;
+	padding:0px 60px 5px 20px;	
+}
+
+h2.noline {
+	border-bottom:none;
+	font-size:22px;
+	line-height:24px;
+	text-align:center;
+	padding:15px 60px 5px 3px;
+}
+
+*html h2.noline {
+	width:258px;
+	padding:10px 10px 0 10px;
+	margin:0;
+}
+
+h2.sm {
+	font-size:20px;
+}
+
+#arrow_med ul {
+	width:238px;
+	font-size:12px;
+	line-height:13px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+*html #arrow_med ul {
+	width:200px;
+	padding-right:92px;
+}
+
+#arrow_med li {
+	background:transparent url(../images/star.png) no-repeat scroll left top;
+	behavior: url(/web/20091002230105im_/http://www.popcap.com/images/iepngfix.htc);
+	margin:5px 0 5px 18px;
+	padding:0px 0 6px 29px;
+}
+
+.promo_med {
+	behavior: url(/web/20091002230105im_/http://www.popcap.com/images/iepngfix.htc);
+	/*width:271px;height:317px; /* dimensions from Nights assets */
+	width:280px;height:287px; /*dimensions from comp*/
+	background: url(../images/promo2_fpo.gif) 0 0 no-repeat;
+	float:right;
+	position:relative;
+	top:13px;
+	right:55px;
+	margin-bottom:9px;
+	cursor: pointer;
+}
+.promo_sm {
+	behavior: url(/web/20091002230105im_/http://www.popcap.com/images/iepngfix.htc);
+	/*width:271px;height:113px; /*dimensions from Nights assets */
+	width:305px;height:134px;/* dimensions from comp*/
+	background: url(../images/promo_fpo.gif) 0 0 no-repeat;
+	float:right;
+	position:relative;
+	top:13px;
+	right:30px;
+	margin-bottom:14px;
+	cursor: pointer;
+}
+ 
+/*#arrow_sm {
+	width:333px;
+	height:135px;
+	float:right;
+	position:relative;
+	top:13px;
+	margin-bottom:14px;
+}*/
+
+#arrow_sm {
+	behavior: url(/web/20091002230105im_/http://www.popcap.com/images/iepngfix.htc);
+	/* elements with iepngfix.htc cannot contain relative/absolute positioning */
+	width:333px;
+	height:135px;
+	background: url(../images/arrow_sm.png) 0 0 no-repeat;
+	float:right;
+	margin-top:20px;
+	margin-bottom:14px;
+	cursor: pointer;
+}
+
+#arrow_sm span.copy {
+	display:block;
+	font-size:14px;
+	width:278px;
+	text-align:center;
+}
+
+body.online_game_page #try_now {
+	float: left;
+	width: 278px;
+	height:42px;
+	margin: 20px 50px 0 0;
+}
+
+body.online_game_page #arrow_sm #try_now a {
+	margin:0;
+	padding:0;
+	position:static;
+}
+
+body.online_game_page #try_now a {
+	display:block;
+	width: 278px;
+	height:42px;
+	background: url(../images/download_btn.gif) top left no-repeat;
+	text-indent: 20px;
+	text-align: center;
+	padding:0;
+	margin:0;
+	line-height:42px;
+/*	padding:12px 0;*/
+	font-size: 20px;
+	font-weight: bold;
+	color: #b24726;
+	text-decoration: none;
+	position:absolute;
+	bottom:0;
+	left:0;
+	/* positioning fix for IE6 */
+/*	!margin-top:74px;*/
+}
+
+body.online_game_page #try_now a:hover {
+	background-position: bottom left;
+}
+
+body.online_game_page #available_for {
+	clear: right;
+	float: right;
+	display: inline;
+	width: 360px;
+	margin:50px 50px 0 0;
+}
+
+body.online_game_page #available_for a {
+	float: left;
+	display: inline;
+	margin: 10px 20px 0 0;
+}
+
+body.online_game_page #available_for img {
+	behavior: url(/web/20091002230105im_/http://www.popcap.com/images/iepngfix.htc);
+}
+
+h2 {
+	color: #55aee5;
+}
+
+body.online_game_page #other_games {
+	clear: left;
+	float: left;
+	display: inline;
+	width: 458px;
+	margin: 50px 0 0 50px;
+}
+
+body.online_game_page #other_games a {
+	float: left;
+	display: inline;
+	margin: 10px 18px 0 0;
+}
+
+body.online_game_page #other_games img {
+	behavior: url(/web/20091002230105im_/http://www.popcap.com/images/iepngfix.htc);
+}
+
+#localized_note p{
+	padding:0;
+	margin:0;
+}
+
+body.online_game_page div.info {
+	border:1px solid #508cae;
+	padding: 10px 10px 10px 60px;
+	margin:30px 0 0 40px;
+	background:url("../images/info.gif") no-repeat 10px center #e9f3f9;
+	width:808px;
+}
+
+/* Ad Related Rules */
+#ad_top_holder {
+	height: 90px;
+	padding-bottom:8px;
+	margin-bottom:40px;
+}
+
+#game_ad {
+	float:left;
+	display:inline;
+	width: 760px;
+}
+
+#game_ad p {
+	float:left;
+	display:inline;
+	text-indent:-9000px;
+	margin:0;
+	padding:0;
+	height:0;
+	width:0;
+}
+
+#game_ad_inner {
+	float:left;
+	display:inline;
+	background: #e5e5e5 url(../images/logo_ghost.gif) no-repeat center center;
+	width:728px;
+	height:90px;
+	margin: 0 0 0 8px;
+	overflow: hidden;
+}
+
+#game_ad_inner iframe#ad_top_banner_webgame {
+	width: 728px;
+	height: 90px;
+	overflow: hidden;
+}
+
+/* @group Plugin Dialog */
+#plugin_dialog_ff_flash, 
+#plugin_dialog_ff_activex, 
+#plugin_dialog_ie, 
+#plugin_dialog_java, 
+#plugin_dialog_mac {
+	display:none;
+}
+.plugin_dialog_bg {
+	background:url('../images/plugin_dialog_bg.gif') repeat-x;
+	width:100%;
+	height:139px;
+	overflow:hidden;	
+	clear:both;
+}
+#plugin_dialog {
+	margin:auto;
+	width:810px;
+	height:110px;
+	padding-top:5px;
+}
+#plugin_dialog .arrow {
+	width:111px;
+	height:111px;
+	background:url('../images/plugin_dialog_arrow.gif') top left no-repeat;
+	padding-right:15px;
+	float:left;
+}
+#plugin_dialog .arrow2 {
+	width:111px;
+	height:111px;
+	background:url('../images/plugin_dialog_arrow2.gif') top left no-repeat;
+	padding-right:15px;
+	float:left;
+}
+#plugin_dialog .header {
+	float:left;
+	width:650px;
+	font-size:12px;
+	text-align:left;
+	margin:10px 0 12px 0;
+}
+#plugin_dialog .step1 {
+	width:190px;
+	height:111px;
+	background:url('../images/plugin_dialog_step1.gif') top left no-repeat;
+	float:left;
+	text-align:left;
+	padding-left:25px;
+	font-size:11px;
+}
+#plugin_dialog .step1_shot_ie {
+	margin-top:10px;
+	width:132px;
+	height:32px;
+	background:url('../images/plugin_dialog_step1_ie.gif') top left no-repeat;
+}
+#plugin_dialog .step1_shot_ff {
+	margin-top:10px;
+	width:132px;
+	height:32px;
+	background:url('../images/plugin_dialog_step1_ff.gif') top left no-repeat;
+}
+#plugin_dialog .step1_shot_ff_mac {
+	margin-top:10px;
+	width:132px;
+	height:32px;
+	background:url('../images/plugin_dialog_step1_ff_mac.gif') top left no-repeat;
+}
+#plugin_dialog .divider {
+	margin:-10px 15px 0 10px;
+	width:5px;
+	height:87px;
+	background:url('../images/plugin_dialog_divider.gif') top left no-repeat;
+	float:left;
+}
+#plugin_dialog .step2 {
+	width:150px;
+	height:111px;
+	background:url('../images/plugin_dialog_step2.gif') top left no-repeat;
+	float:left;
+	text-align:left;
+	padding-left:30px;
+	font-size:11px;
+}
+#plugin_dialog .step2_shot {
+	margin-top:5px;
+	width:118px;
+	height:47px;
+	background:url('../images/plugin_dialog_step2_shot.gif') top left no-repeat;
+}
+#plugin_dialog .promise {
+	width:220px;
+	height:89px;
+	background:url('../images/plugin_dialog_promisebg.gif') top left no-repeat;
+	float:right;
+	text-align:left;
+	font-size:11px;
+	margin:-32px 0 0 0;
+	padding:5px 0 0 15px;
+}
+
+.promise strong {
+	font-weight:bold;
+}
+
+#plugin_dialog p {
+	line-height:18px;
+}
+#plugin_dialog .no_thanks {
+	display:inline;
+	margin:0 15px 0 0;
+	float:right;
+	text-align:left;
+	font-size:11px;
+}
+#plugin_dialog .no_thanks a {
+	color:#666666;
+}
+#plugin_dialog .no_thanks a:hover {
+	color:#ff6600;
+}
+/* @end Plugin Dialog */
+/*
+     FILE ARCHIVED ON 23:01:05 Oct 02, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:58:50 Jul 29, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.528
+  exclusion.robots: 0.041
+  exclusion.robots.policy: 0.03
+  esindex: 0.01
+  cdx.remote: 20.646
+  LoadShardBlock: 157.332 (3)
+  PetaboxLoader3.datanode: 159.807 (4)
+  load_resource: 73.003
+  PetaboxLoader3.resolve: 50.612
+*/

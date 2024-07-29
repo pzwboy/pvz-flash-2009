@@ -1,0 +1,455 @@
+
+
+h2 {
+	color: #ea5e00;
+}
+
+#game_upper {
+	float: left;
+	display: inline;
+	width: 960px;
+}
+
+#game_left {
+	float: left;
+	display: inline;
+	width: 236px;
+}
+
+#awards {
+	float: left;
+	display: inline;
+	width: 634px;
+	height: 64px;
+	margin: 0 0 0 30px;
+	background: url(../images/awards_bkgd.png) top left no-repeat;
+}
+
+#awards a img {
+	border:none;
+}
+
+#awards img {
+	float:left;
+	padding-right:10px;
+}
+
+#awards a {
+	color:#ffed00;
+	text-decoration:underline;
+}
+
+#awards p {
+	position: absolute;
+	width: 596px;
+	margin: 12px 0 0 20px;
+	color: #ededed;
+	font-size: 15px;
+	line-height: 20px;
+	display: none;
+}
+
+#awards span.highlight {
+	font-weight: bold;
+	color: #fff;
+}
+
+#awards span.highlight_small {
+	font-weight: bold;
+	font-size:13px;
+	color: #fff;
+}
+
+
+.slideshow-panel-place  {
+	display: none;
+}
+    
+.slideshow-opacity{
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9JREFUeNpiYmBgaAAIMAAAjwCD5Hc2/AAAAABJRU5ErkJggg==);
+    background:rgba(0, 0, 0, 0.4);
+}
+    *:first-child+html .slideshow-opacity, * html .slideshow-opacity {
+        zoom:1;
+        background:#000;
+        filter:alpha(opacity=50);
+    }
+    * html .slideshow-opacity {
+        zoom:1;
+        background:#000;
+        filter:alpha(opacity=50);
+    }
+    
+    *:first-child+html .slideshow-opacity *{
+        position:relative;
+    }
+    
+    * html .slideshow-opacity *{
+        position:relative;
+    }
+
+slideshow-content p {
+	float: left;
+}
+
+#about {
+	float: left;
+	display: inline;
+	width: 594px;
+	margin: 10px 0 0 50px;
+	padding-bottom: 30px;
+	text-align: justify;
+}
+
+#about p {
+	width: 594px;
+	font-size: 14px;
+}
+
+#about p.award {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#try_buy {
+	float: left;
+	display: inline;
+	width: 266px;
+	margin: 0;
+}
+
+#buy_now {
+	clear: left;
+	float: left;
+	display: inline;
+	width: 216px;
+	margin: 20px 0 0 50px;
+}
+
+#buy_now a {
+	display: block;
+	width: 216px;
+	background: url(../images/buy_now_btn.gif) top left no-repeat;
+	text-indent: 24px;
+	text-align: center;
+	padding: 12px 0 12px 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: #b24726;
+	text-decoration: none;
+}
+
+#buy_now a:hover {
+	background-position: bottom left;
+}
+
+#buy_now .details {
+	float: left;
+	display: inline;
+	margin-left: 22px;
+	width: 175px;
+	background: url(../images/bottom.gif) bottom repeat-y;
+}
+
+#buy_now p {
+	float: left;
+	display: inline;
+	margin: 5px 10px 0 10px;
+	color: #666;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 5px;
+	width: 155px;
+}
+
+#buy_now .price {
+	font-size: 24px;
+	line-height: 28px;
+	color: #4c8500;
+	font-weight: bold;
+}
+
+#buy_now .price_sm {
+	color: #4c8500;
+	vertical-align: super;
+	font-size: 14px;
+}
+
+#buy_now #language {
+	float: left;
+	display: inline;
+	width: 175px;
+}
+
+#buy_now #language form {
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+
+#buy_now #localized_note p {
+	margin-top: 0;
+	color: #ed1c24;
+}
+
+#try_now {
+	float: left;
+	display: inline;
+	width: 216px;
+	margin: 0 50px 0 50px;
+}
+
+#try_now a {
+	display: block;
+	width: 216px;
+	background: url(../images/trial_btn.gif) top left no-repeat;
+	text-indent: 20px;
+	text-align: center;
+	padding: 12px 0 12px 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: #b24726;
+	text-decoration: none;
+}
+
+#try_now a:hover {
+	background-position: bottom left;
+}
+
+#try_now .details {
+	float: left;
+	display: inline;
+	margin-left: 22px;
+	width: 175px;
+	text-align: center;
+	background: url(../images/bottom.gif) bottom repeat-y;
+}
+
+#try_now p {
+	margin: 5px 10px 0 10px;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#try_now p.info {
+	color: #666;
+	font-weight: normal;
+	font-size: 12px;
+	margin-top:0;
+	padding: 5px 0;
+}
+
+/* Big Play Now Button */
+#try_now a.big {
+	display: block;
+	width: 216px;
+	height:81px;
+	background: url(../images/btn_try_big.png) top left no-repeat;
+	text-indent: 20px;
+	text-align: center;
+	padding:0;
+	font-size: 20px;
+	font-weight: bold;
+	color: #b24726;
+	text-decoration: none;
+	line-height:81px;
+}
+
+#try_now a.big:hover {
+	background-position: bottom left;
+}
+
+/* End Big Play Now Button */
+
+
+#alt_os {
+	clear:both;
+	float:left;
+	display:inline;
+	width:220px;
+	margin:10px 0 0 50px;
+	font-size:14px;
+	text-align:center;
+}
+
+#system {
+	clear: none;
+	float: left;
+	display: inline;
+	width: 176px;
+	margin: 20px 0 0 0;
+}
+
+#system a {
+	color: #fff;
+	outline: none;
+}
+
+#system a.system_reqs {
+	margin-top: 0px;
+}
+
+#system a.readme {
+	behavior: url(/web/20091002225118im_/http://www.popcap.com/images/iepngfix.htc);
+	clear: left;
+	float: left;
+	display: inline;
+	width: 176px;
+	margin-top: 10px;
+	background: url(../images/read_me_btn.png) top left no-repeat;
+	text-indent: 25px;
+	text-align: center;
+	padding: 13px 0 13px 0;
+	font-size: 12px;
+	line-height: 1;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#system a.readme:hover {
+	background-position: bottom left;
+}
+
+#badges {
+	float: right;
+	margin: 20px 0 0 0;
+	display: inline;
+	width: 275px;
+}
+
+#badges img {
+	float: right;
+	display: inline;
+	margin-left: 5px;
+}
+
+#badges a {
+	float: right;
+	display: inline;
+	margin-left: 5px;
+}
+
+#more_about #badges a#intel_mac li {
+	width:70px;
+}
+
+#more_about #badges ul {
+	float: right;
+	display: inline;
+	margin: 0 0 0 5px;
+	padding: 0;
+	list-style: none;
+	list-style-position: outside;
+}
+
+#more_about #badges ul li {
+	color: #000;
+	font-size: 9px;
+	line-height: 1.2;
+	margin: 0 0 0 0;
+	padding: 0;
+	background: none;
+	width: 90px;
+}
+
+#game_lower {
+	float: left;
+	display: inline;
+	width: 960px;
+}
+
+#screenshots {
+	float: left;
+	display: inline;
+	width: 348px;
+	height: 320px;
+	margin: 20px 0 0 50px;
+}
+
+#screenshots h2 span {
+	font-size: .75em;
+	color: #666;
+}
+
+#screenshots h2 a {
+	cursor: pointer;
+}
+
+#screenshots #screens a,
+#screenshots #vids a {
+	position: absolute;
+	width: 348px;
+	height: 282px;
+	margin: 20px 0 0 0;
+	background: url(../images/screens_bkgd.png) top left no-repeat;
+}
+
+#screenshots img {
+	margin: 18px 0 0 10px;
+}
+
+#more_about {
+	float: right;
+	display: inline;
+	width: 460px;
+	margin: 20px 50px 0 0;
+}
+
+#more_about ul {
+	padding: 0;
+	margin: 0 0 0 0;
+	list-style: none;
+}
+
+#more_about ul li {
+	padding: 0 0 0 25px;
+	margin: 20px 0 0 0;
+	font-size: 14px;
+	line-height: 20px;
+	width: 435px;
+	background: url(../images/bullet_star.png) no-repeat;
+}
+
+#other_games {
+	float: right;
+	display: inline;
+	width: 460px;
+	margin: 50px 50px 0 0;
+}
+
+/* PLC-4152 Remove following 2 rules once ESRB icon appears */
+body.mpi-la #wrapper #badges ul.esrb_descriptors li {
+	width:270px;
+	font-size:12px;
+	padding-top:10px;
+}
+body.mpi-la #badges ul.esrb_descriptors li a {
+	float:none;
+	margin-left:0px;
+}
+
+/*
+     FILE ARCHIVED ON 22:51:18 Oct 02, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:58:49 Jul 29, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.637
+  exclusion.robots: 0.044
+  exclusion.robots.policy: 0.03
+  esindex: 0.022
+  cdx.remote: 18.166
+  LoadShardBlock: 173.237 (3)
+  PetaboxLoader3.datanode: 136.885 (4)
+  PetaboxLoader3.resolve: 61.157 (2)
+  load_resource: 66.227
+*/

@@ -1,0 +1,1127 @@
+
+
+
+
+/* @group Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+/* vertica
+
+l-align: baseline; */
+	/* border:
+
+solid 1px gray; */
+}
+
+table,
+tr,
+th,
+td {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th,
+td,
+caption {
+	text-align: left;
+}
+
+a img,
+fieldset {
+	border: 0;
+}
+
+ol, 
+ul {
+	font-size: 14px;
+	line-height: 1.5;
+	margin-left: 1em;
+	padding-left: .75em;
+	margin-top: .5em;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style: disc;
+}
+
+a {
+	color: #323ac3;
+}
+
+
+legend {
+	display: none;
+}
+
+/* @end */
+
+/* @group Hacks */
+
+/* http://www.positioniseverything.net/easyclearing.html */
+
+.clearfix:after,
+.clear_fix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix,
+.clear_fix {
+	display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+
+* html .clearfix,
+* html .clear_fix {
+	height: 1%;
+}
+
+/* End hide from IE-mac */
+
+div.list {
+	padding-left: 18px;
+	margin-bottom: 5px;
+}
+
+/* generic container class for form elements */
+
+.input_group {
+	clear: left;
+}
+
+.input_group label, 
+.input_group input,
+.input_group select, 
+.input_group textarea, 
+.input_group a, 
+.input_group img {
+	float: left;
+	margin: 2px;
+	padding: 0;
+}
+
+.input_group label {
+	clear: left;
+	width: 200px;
+	text-align: right;
+	padding-right: 3px;
+}
+
+.input_group .radio_group,
+.input_group .checkbox_group {
+	float: left;
+	margin: 2px;
+}
+
+.input_group .radio_group label,
+.input_group .checkbox_group label {
+	clear: none;
+	text-align: left;
+	margin: 2px 2px 5px 2px;
+}
+
+.input_group .radio_group input,
+.input_group .checkbox_group input {
+	clear: left;
+	text-align: right;
+	margin: 2px 5px 0 0;
+}
+
+* html .input_group .radio_group label,
+* html .input_group .checkbox_group label {
+	margin-top: 5px;
+}
+
+/* Star selector hack for IE6 label position */
+
+/* @end */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #ffeb86 url(../images/bkgd_gradient.gif) repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	line-height: 1.125em;
+	color: #333333;
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.error {
+	color: red;
+}
+
+a.sm_button {
+	clear: both;
+	float: right;
+	display:inline;
+	text-align: center;
+	background: url(../images/btn_sm_left.png) top left no-repeat;
+	font-size: 16px;
+	color: #b24726;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0;
+	margin: 5px 10px 0px 0;
+	white-space: nowrap;
+	outline: none;
+	height: 33px;
+}
+
+*html a.sm_button {
+	background: url(../images/btn_sm_left.gif) top left no-repeat;
+}
+
+a.sm_button:hover {
+	background-position: bottom left;
+}
+
+a.sm_button span {
+	display: block;
+	line-height: 1;
+	padding: 8px 20px 9px 0;
+	margin-left: 20px;
+	background: url(../images/btn_sm_right.png) top right no-repeat;
+}
+
+*html a.sm_button span {
+	background: url(../images/btn_sm_right.gif) top right no-repeat;
+}
+
+a.sm_button:hover span {
+	background-position: bottom right;
+}
+
+a.lg_button {
+	clear: both;
+	text-align: center;
+	display: inline;
+	background: url(../images/btn_lg_left.png) top left no-repeat;
+	font-size: 20px;
+	color: #b24726;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 8px 0 10px 0;
+	margin:0 0 0 20px;
+	outline: none;
+}
+
+*html a.lg_button {
+	background: url(../images/btn_lg_left.gif) top left no-repeat;
+}
+
+a.lg_button span {
+	display: inline;
+	height: 33px;
+	padding: 8px 20px 10px 0;
+	margin:0 0 0 20px;
+	background: url(../images/btn_lg_right.png) top right no-repeat;
+}
+
+*html a.lg_button span {
+	background: url(../images/btn_lg_right.gif) top right no-repeat;
+}
+
+a.lg_button:hover {
+	background-position: bottom left;
+}
+
+a.lg_button:hover span {
+	background-position: bottom right;
+}
+
+/* Game Tiles */
+
+.game_tile_med {
+	behavior: url(/web/20091002225013im_/http://www.popcap.com/images/iepngfix.htc);
+	float: left;
+	display: inline;
+	height: 155px;
+	width: 130px;
+	padding: 0;
+	text-align: left;
+	cursor: pointer;
+	background: url(../images/blank.gif) 5px 4px no-repeat;
+}
+
+.game_tile_med img {
+	behavior: url(/web/20091002225013im_/http://www.popcap.com/images/iepngfix.htc);
+}
+
+.game_tile_med img.badge {
+	float: left;
+	display: inline;
+	margin-top: -155px;
+}
+
+.game_tile_lrg {
+	float: left;
+	display: inline;
+	margin: 0 0 0 42px;
+	height: 214px;
+	width: 194px;
+	background: url(../images/blank.gif) 15px 7px no-repeat;
+}
+
+.game_tile_lrg img {
+	behavior: url(/web/20091002225013im_/http://www.popcap.com/images/iepngfix.htc);
+}
+
+.game_tile_lrg img.badge {
+	float: left;
+	display: inline;
+	margin-top: -214px;
+}
+
+.game_tile_sm {
+	width: 95px;
+	height: 112px;
+	float: left;
+	display: inline;
+	cursor: pointer;
+	background: url(../images/blank.gif) 6px 4px no-repeat;
+}
+
+.game_tile_sm img {
+	behavior: url(/web/20091002225013im_/http://www.popcap.com/images/iepngfix.htc);
+}
+
+/* List Styles */
+
+ul.list_stars {
+	list-style-type:none;
+	margin:10px 0 0 0;
+	padding:0;
+	padding-left:0;
+	clear:both;
+}
+
+ul.list_stars li {
+	background:url(../images/star.png) no-repeat 0 0;
+	padding-left:30px;
+	margin-bottom:1em;
+}
+
+ul.list_esrb {
+	float:left;
+	font-size:10px;
+	line-height:120%;
+	color:#000;
+}
+
+ul.list_esrb li {
+	padding-left:10px;
+	display:block;
+}
+
+.advert {
+background-color:#999999;
+color:#FFFFFF;
+font-size:8pt;
+line-height:11pt;
+margin:0;
+padding:0;
+text-align:center;
+}
+
+#browser_alert {
+	float:left;
+	display:inline;
+	width:100%;
+	padding:10px 0px 10px 0px;
+	width: 100%;
+	text-align: center;
+	line-height: 14px;
+	background: #fff6c6 url(../images/alert_sign.gif) no-repeat;
+}
+
+#browser_alert p {
+	font-size:14px;
+	color: #333;
+	margin: 5px 0 0 0;
+}
+
+#browser_alert a {
+	font-size:14px;
+	font-weight:bold;
+}
+
+#close_alert {
+	float:right;
+	display:inline;
+	padding: 0 10px 0 23px;
+	font-size: 14px;
+	line-height: 18px;
+	height: 18px;
+	background: url(../images/alert_close.gif) no-repeat;
+	cursor: pointer;
+}
+
+/* pvz_sept interstitial */
+
+#pvz_sept_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	display:none;
+/*	background-color:#000;
+	filter:alpha(opacity=95);
+	-moz-opacity: 0.95;
+	opacity: 0.95;
+	display:none;
+	text-align: center;*/
+}
+
+#pvz_sept_window {
+	background: url(../images/background.jpg) top left no-repeat;
+	position: fixed;
+	z-index: 102;
+	display:none;	
+	text-align:left;
+	width: 800px;
+	height: 600px;
+	top:35px;
+	left: 50%;
+	margin-left: -400px;
+}
+
+#pvz_sept_window a {outline:none;}
+
+#pvz_sept_closeWindow {
+	position: absolute;
+	height: 54px;
+	width: 54px;
+	margin: -560px 0 0 762px;
+/*	margin: -615px 0 0 700px;*/
+}
+
+#pvz_sept_closeWindow a {
+	behavior: url(/web/20091002225013im_/http://www.popcap.com/images/iepngfix.htc);
+	display: block;
+	height: 54px;
+	width: 54px;
+	background: url(../images/close_btn.png) top left no-repeat;
+	text-indent: -9999px;
+	outline: 0;
+}
+
+#pvz_sept_exit {
+	margin:0 0 0 285px;
+	width:230px;
+	text-align:center;
+}
+
+#pvz_sept_exit a {
+	color:#fff;
+	font-size:12px;
+	margin:0 0px 0 0px;
+}
+
+#pvz_sept_exit a:hover {color:#FFCC00;
+}
+
+#pvz_sept_closeWindow a:hover {
+	cursor: pointer;
+	background-position: bottom;
+}
+
+#pvz_sept_cta {
+	margin:448px 0 0 280px;
+}
+
+#pvz_sept_cta a {
+	background: url(../images/button.png) top left no-repeat;
+	display:block;
+	width:227px;
+	height:66px;
+	text-indent:-9999px;
+}
+
+#pvz_sept_cta a:hover {
+	background-position:center bottom;
+}
+
+
+
+/* mpi-la interstitial */
+
+#mpi-la_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	display:none;
+/*	background-color:#000;
+	filter:alpha(opacity=95);
+	-moz-opacity: 0.95;
+	opacity: 0.95;
+	display:none;
+	text-align: center;*/
+}
+
+#mpi-la_window {
+	background: url(../images/mpi-la_tb-03.jpg) top left no-repeat;
+	position: fixed;
+	z-index: 102;
+	display:none;	
+	text-align:left;
+	width: 800px;
+	height: 600px;
+	top:35px;
+	left: 50%;
+	margin-left: -400px;
+}
+
+#mpi-la_window a {outline:none;}
+
+#mpi-la_closeWindow {
+	position: absolute;
+	height: 54px;
+	width: 54px;
+	margin: -560px 0 0 762px;
+/*	margin: -615px 0 0 700px;*/
+}
+
+#mpi-la_closeWindow a {
+	behavior: url(/web/20091002225013im_/http://www.popcap.com/images/iepngfix.htc);
+	display: block;
+	height: 54px;
+	width: 54px;
+	background: url(../images/mpi-la_close_btn.png) top left no-repeat;
+	text-indent: -9999px;
+	outline: 0;
+}
+
+#mpi-la_exit {
+	margin:0 0 0 285px;
+	width:230px;
+	text-align:center;
+}
+
+#mpi-la_exit a {
+	color:#fff;
+	font-size:12px;
+	margin:0 0px 0 0px;
+}
+
+#mpi-la_exit a:hover {color:#FFCC00;
+}
+
+#mpi-la_closeWindow a:hover {
+	cursor: pointer;
+	background-position: bottom;
+}
+
+#mpi-la_cta {
+	margin:398px 0 0 250px;
+}
+
+#mpi-la_cta a {
+	background: url(../images/mpi-la_cta.png) top left no-repeat;
+	display:block;
+	width:294px;
+	height:130px;
+	text-indent:-9999px;
+}
+
+#mpi-la_cta a:hover {
+	background-position:center bottom;
+}
+
+/* end mpi-la interstitial */
+
+/* zrJungle1033 Interstitial */
+
+#zrJungle1033_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	display:none;
+/*	background-color:#000;
+	filter:alpha(opacity=95);
+	-moz-opacity: 0.95;
+	opacity: 0.95;
+	display:none;
+	text-align: center;*/
+}
+
+#zrJungle1033_window {
+	background: url(../images/zrjungle_tb.jpg) top left no-repeat;
+	position: fixed;
+	z-index: 102;
+	display:none;	
+	text-align:left;
+	width: 800px;
+	height: 600px;
+	top:35px;
+	left: 50%;
+	margin-left: -400px;
+}
+
+#zrJungle1033_window a {outline:none;}
+
+#zrJungle1033_closeWindow {
+	position: absolute;
+	height: 54px;
+	width: 54px;
+	margin: -560px 0 0 762px;
+/*	margin: -615px 0 0 700px;*/
+}
+
+#zrJungle1033_closeWindow a {
+	behavior: url(/web/20091002225013im_/http://www.popcap.com/images/iepngfix.htc);
+	display: block;
+	height: 54px;
+	width: 54px;
+	background: url(../images/zrjungle_close_btn.png) top left no-repeat;
+	text-indent: -9999px;
+	outline: 0;
+}
+
+#zrJungle1033_exit {
+	margin:0 0 0 285px;
+	width:230px;
+	text-align:center;
+}
+
+#zrJungle1033_exit a {
+	color:#fff;
+	font-size:12px;
+	margin:0 0px 0 40px;
+}
+
+#zrJungle1033_exit a:hover {color:#FFCC00;
+}
+
+#zrJungle1033_closeWindow a:hover {
+	cursor: pointer;
+	background-position: bottom;
+}
+
+#zrJungle1033_cta {
+	margin:438px 0 0 310px;
+}
+
+#zrJungle1033_cta a {
+	background: url(../images/zrjungle_cta.png) top left no-repeat;
+	display:block;
+	width:224px;
+	height:93px;
+	text-indent:-9999px;
+}
+
+#zrJungle1033_cta a:hover {
+	background-position:center bottom;
+}
+
+/* END OF zrJungle1033 Interstitial */
+
+/* zrJungle1036 Interstitial */
+
+#zrJungle1036_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	display:none;
+/*	background-color:#000;
+	filter:alpha(opacity=95);
+	-moz-opacity: 0.95;
+	opacity: 0.95;
+	display:none;
+	text-align: center;*/
+}
+
+#zrJungle1036_window {
+	background: url(../images/zrjungle_tb_fr.jpg) top left no-repeat;
+	position: fixed;
+	z-index: 102;
+	display:none;	
+	text-align:left;
+	width: 800px;
+	height: 600px;
+	top:35px;
+	left: 50%;
+	margin-left: -400px;
+}
+
+#zrJungle1036_window a {outline:none;}
+
+#zrJungle1036_closeWindow {
+	position: absolute;
+	height: 54px;
+	width: 54px;
+	margin: -560px 0 0 762px;
+/*	margin: -615px 0 0 700px;*/
+}
+
+#zrJungle1036_closeWindow a {
+	behavior: url(/web/20091002225013im_/http://www.popcap.com/images/iepngfix.htc);
+	display: block;
+	height: 54px;
+	width: 54px;
+	background: url(../images/zrjungle_close_btn.png) top left no-repeat;
+	text-indent: -9999px;
+	outline: 0;
+}
+
+#zrJungle1036_exit {
+	margin:0 0 0 285px;
+	width:230px;
+	text-align:center;
+}
+
+#zrJungle1036_exit a {
+	color:#fff;
+	font-size:12px;
+	margin:0 0px 0 40px;
+}
+
+#zrJungle1036_exit a:hover {color:#FFCC00;
+}
+
+#zrJungle1036_closeWindow a:hover {
+	cursor: pointer;
+	background-position: bottom;
+}
+
+#zrJungle1036_cta {
+	margin:438px 0 0 310px;
+}
+
+#zrJungle1036_cta a {
+	background: url(../images/zrjungle_cta_fr.png) top left no-repeat;
+	display:block;
+	width:224px;
+	height:93px;
+	text-indent:-9999px;
+}
+
+#zrJungle1036_cta a:hover {
+	background-position:center bottom;
+}
+
+/* END OF zrJungle1036 Interstitial */
+
+/* zrJungle1040 Interstitial */
+
+#zrJungle1040_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	display:none;
+/*	background-color:#000;
+	filter:alpha(opacity=95);
+	-moz-opacity: 0.95;
+	opacity: 0.95;
+	display:none;
+	text-align: center;*/
+}
+
+#zrJungle1040_window {
+	background: url(../images/zrjungle_tb_it.jpg) top left no-repeat;
+	position: fixed;
+	z-index: 102;
+	display:none;	
+	text-align:left;
+	width: 800px;
+	height: 600px;
+	top:35px;
+	left: 50%;
+	margin-left: -400px;
+}
+
+#zrJungle1040_window a {outline:none;}
+
+#zrJungle1040_closeWindow {
+	position: absolute;
+	height: 54px;
+	width: 54px;
+	margin: -560px 0 0 762px;
+/*	margin: -615px 0 0 700px;*/
+}
+
+#zrJungle1040_closeWindow a {
+	behavior: url(/web/20091002225013im_/http://www.popcap.com/images/iepngfix.htc);
+	display: block;
+	height: 54px;
+	width: 54px;
+	background: url(../images/zrjungle_close_btn.png) top left no-repeat;
+	text-indent: -9999px;
+	outline: 0;
+}
+
+#zrJungle1040_exit {
+	margin:0 0 0 285px;
+	width:230px;
+	text-align:center;
+}
+
+#zrJungle1040_exit a {
+	color:#fff;
+	font-size:12px;
+	margin:0 0px 0 40px;
+}
+
+#zrJungle1040_exit a:hover {color:#FFCC00;
+}
+
+#zrJungle1040_closeWindow a:hover {
+	cursor: pointer;
+	background-position: bottom;
+}
+
+#zrJungle1040_cta {
+	margin:438px 0 0 310px;
+}
+
+#zrJungle1040_cta a {
+	background: url(../images/zrjungle_cta_it.png) top left no-repeat;
+	display:block;
+	width:224px;
+	height:93px;
+	text-indent:-9999px;
+}
+
+#zrJungle1040_cta a:hover {
+	background-position:center bottom;
+}
+
+/* END OF zrJungle1040 Interstitial */
+
+/* zrJungle1031 Interstitial */
+
+#zrJungle1031_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	display:none;
+/*	background-color:#000;
+	filter:alpha(opacity=95);
+	-moz-opacity: 0.95;
+	opacity: 0.95;
+	display:none;
+	text-align: center;*/
+}
+
+#zrJungle1031_window {
+	background: url(../images/zrjungle_tb_de.jpg) top left no-repeat;
+	position: fixed;
+	z-index: 102;
+	display:none;	
+	text-align:left;
+	width: 800px;
+	height: 600px;
+	top:35px;
+	left: 50%;
+	margin-left: -400px;
+}
+
+#zrJungle1031_window a {outline:none;}
+
+#zrJungle1031_closeWindow {
+	position: absolute;
+	height: 54px;
+	width: 54px;
+	margin: -560px 0 0 762px;
+/*	margin: -615px 0 0 700px;*/
+}
+
+#zrJungle1031_closeWindow a {
+	behavior: url(/web/20091002225013im_/http://www.popcap.com/images/iepngfix.htc);
+	display: block;
+	height: 54px;
+	width: 54px;
+	background: url(../images/zrjungle_close_btn.png) top left no-repeat;
+	text-indent: -9999px;
+	outline: 0;
+}
+
+#zrJungle1031_exit {
+	margin:0 0 0 285px;
+	width:240px;
+	text-align:center;
+}
+
+#zrJungle1031_exit a {
+	color:#fff;
+	font-size:12px;
+	margin:0 0px 0 40px;
+}
+
+#zrJungle1031_exit a:hover {color:#FFCC00;
+}
+
+#zrJungle1031_closeWindow a:hover {
+	cursor: pointer;
+	background-position: bottom;
+}
+
+#zrJungle1031_cta {
+	margin:438px 0 0 310px;
+}
+
+#zrJungle1031_cta a {
+	background: url(../images/zrjungle_cta_de.png) top left no-repeat;
+	display:block;
+	width:224px;
+	height:93px;
+	text-indent:-9999px;
+}
+
+#zrJungle1031_cta a:hover {
+	background-position:center bottom;
+}
+
+/* END OF zrJungle1031 Interstitial */
+
+/* zrJungle1034 Interstitial */
+
+#zrJungle1034_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	display:none;
+/*	background-color:#000;
+	filter:alpha(opacity=95);
+	-moz-opacity: 0.95;
+	opacity: 0.95;
+	display:none;
+	text-align: center;*/
+}
+
+#zrJungle1034_window {
+	background: url(../images/zrjungle_tb_es.jpg) top left no-repeat;
+	position: fixed;
+	z-index: 102;
+	display:none;	
+	text-align:left;
+	width: 800px;
+	height: 600px;
+	top:35px;
+	left: 50%;
+	margin-left: -400px;
+}
+
+#zrJungle1034_window a {outline:none;}
+
+#zrJungle1034_closeWindow {
+	position: absolute;
+	height: 54px;
+	width: 54px;
+	margin: -560px 0 0 762px;
+/*	margin: -615px 0 0 700px;*/
+}
+
+#zrJungle1034_closeWindow a {
+	behavior: url(/web/20091002225013im_/http://www.popcap.com/images/iepngfix.htc);
+	display: block;
+	height: 54px;
+	width: 54px;
+	background: url(../images/zrjungle_close_btn.png) top left no-repeat;
+	text-indent: -9999px;
+	outline: 0;
+}
+
+#zrJungle1034_exit {
+	margin:0 0 0 285px;
+	width:230px;
+	text-align:center;
+}
+
+#zrJungle1034_exit a {
+	color:#fff;
+	font-size:12px;
+	margin:0 0px 0 40px;
+}
+
+#zrJungle1034_exit a:hover {color:#FFCC00;
+}
+
+#zrJungle1034_closeWindow a:hover {
+	cursor: pointer;
+	background-position: bottom;
+}
+
+#zrJungle1034_cta {
+	margin:438px 0 0 310px;
+}
+
+#zrJungle1034_cta a {
+	background: url(../images/zrjungle_cta_es.png) top left no-repeat;
+	display:block;
+	width:224px;
+	height:93px;
+	text-indent:-9999px;
+}
+
+#zrJungle1034_cta a:hover {
+	background-position:center bottom;
+}
+
+/* END OF zrJungle1034 Interstitial */
+
+
+/* zrLava Interstitial */
+
+#zrLava_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	display:none;
+/*	background-color:#000;
+	filter:alpha(opacity=95);
+	-moz-opacity: 0.95;
+	opacity: 0.95;
+	display:none;
+	text-align: center;*/
+}
+
+#zrLava_window {
+	background: url(../images/zrlava_tb.png) top left no-repeat;
+	position: fixed;
+	z-index: 102;
+	display:none;	
+	text-align:left;
+	width: 800px;
+	height: 600px;
+	top:35px;
+	left: 50%;
+	margin-left: -400px;
+}
+
+#zrLava_window a {outline:none;}
+
+#zrLava_closeWindow {
+	position: absolute;
+	height: 54px;
+	width: 54px;
+	margin: -540px 0 0 762px;
+/*	margin: -615px 0 0 700px;*/
+}
+
+#zrLava_closeWindow a {
+	behavior: url(/web/20091002225013im_/http://www.popcap.com/images/iepngfix.htc);
+	display: block;
+	height: 54px;
+	width: 54px;
+	background: url(../images/zrlava_close_btn.png) top left no-repeat;
+	text-indent: -9999px;
+	outline: 0;
+}
+
+#zrLava_exit {
+	margin:120px 0 0 285px;
+	width:230px;
+	text-align:center;
+}
+
+#zrLava_exit a {
+	color:#fff;
+	font-size:12px;
+	margin:60px 0px 0 0px;
+}
+
+#zrLava_exit a:hover {color:#FFCC00;
+}
+
+#zrLava_closeWindow a:hover {
+	cursor: pointer;
+	background-position: bottom;
+}
+
+#zrLava_cta {
+	margin:358px 0 0 310px;
+}
+
+#zrLava_cta a {
+	background: url(../images/zrlava_cta.png) top left no-repeat;
+	display:block;
+	width:175px;
+	height:34px;
+	text-indent:-9999px;
+}
+
+#zrLava_cta a:hover {
+	background-position:center bottom;
+}
+/* END OF zrLava Interstitial */
+
+
+/* NEWSLETTER */
+#newsletter div {
+	margin-bottom:10px;
+}
+
+
+
+/*
+     FILE ARCHIVED ON 22:50:13 Oct 02, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:58:46 Jul 29, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.47
+  exclusion.robots: 0.032
+  exclusion.robots.policy: 0.024
+  esindex: 0.008
+  cdx.remote: 11.701
+  LoadShardBlock: 142.538 (3)
+  PetaboxLoader3.datanode: 108.803 (4)
+  PetaboxLoader3.resolve: 361.348 (2)
+  load_resource: 354.063
+*/

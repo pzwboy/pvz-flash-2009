@@ -1,0 +1,636 @@
+
+
+#wrapper {
+	width:100%;
+	background: transparent url(../images/bkgd.jpg) center top no-repeat;
+	min-width:960px;
+
+}
+	
+#center {
+	width: 960px;
+	text-align: left;
+	margin: 0 auto;	
+}
+	
+#header {
+	float: left;
+	display: inline;
+	margin-top:100px;
+	height:292px;
+	width:960px;
+}
+	
+#header h1 {
+	text-indent:-9999px;
+}
+
+/* @group Top Nav */
+
+#top_nav {
+	behavior: url(/web/20091002224433im_/http://www.popcap.com/images/iepngfix.htc);
+	float:left;
+	display:inline;
+	width: 960px;
+	height: 175px;
+	overflow:hidden;
+	margin-top:-274px;
+	background: url(../images/top_nav_bkgd.png) no-repeat;
+}
+	
+*html #top_nav {
+	background: url(../images/top_nav_bkgd.gif) no-repeat;
+}
+	
+#logo {
+	float: left;
+	display: inline;
+	margin-top:17px;
+	margin-left:14px;
+	width: 150px;
+	height: 150px;
+	background: url(../images/logo.png) no-repeat;
+}
+	
+#logo a {
+	display:block;
+	width: 150px;
+	height: 150px;
+	text-indent: -9999px;
+	outline: 0;
+}
+
+ul#main_nav {
+	float: left;
+	display: inline;
+	margin:18px 0 0 0;
+	padding: 0;
+	list-style: none;
+	width: 792px;
+}
+	
+ul#main_nav li {
+	float: left;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+ul#main_nav li a {
+	float: left;
+	display: inline;
+	margin: 0;
+	padding: 0 0 0 47px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+	outline: 0;
+}
+	
+ul#main_nav li a span {
+	display: block;
+	background:url(../images/nav_btn_right.gif) no-repeat right top;
+	padding:18px 18px 25px 6px;
+	margin: 0;
+	white-space:nowrap;
+	outline:0;
+}
+
+ul#main_nav li a:hover span {
+	background-position: right bottom;
+}
+	
+ul#main_nav li#download a {
+	background: url(../images/nav_btn_download.gif) no-repeat;
+}
+
+ul#main_nav li#online a {
+	background: url(../images/nav_btn_online.gif) no-repeat;
+}
+	
+ul#main_nav li#cash a {
+	background: url(../images/nav_btn_cash.gif) no-repeat;
+}
+	
+ul#main_nav li#more a {
+	background: url(../images/nav_btn_more.gif) no-repeat;
+}
+
+ul#main_nav li#more a:hover,
+ul#main_nav li#download a:hover,
+ul#main_nav li#online a:hover,
+ul#main_nav li#cash a:hover {
+	background-position: left bottom;
+}
+	
+ul#sm_nav {
+	float: right;
+	display: inline;
+	margin:10px 20px 0 0; /* 15px top-margin was pushing icons onto the blue arc */
+	padding: 0;
+	list-style: none;
+}
+	
+ul#sm_nav li {
+	float: left;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+	
+ul#sm_nav li a {
+	display: block;
+	width: 43px;
+	height: 43px;
+	text-indent: -9999px;
+	outline: 0;
+}
+	
+ul#sm_nav li#account a {
+	background: url(../images/nav_btn_account.gif) no-repeat;
+}
+	
+ul#sm_nav li#cart a {
+	margin-top:13px;
+	background: url(../images/nav_btn_cart.gif) no-repeat;
+}
+	
+ul#sm_nav li#help a {
+	margin-top:28px;
+	background: url(../images/nav_btn_help.gif) no-repeat;
+}
+
+ul#sm_nav li#help a:hover,
+ul#sm_nav li#cart a:hover,
+ul#sm_nav li#account a:hover {
+	background-position: bottom;
+}
+
+ul#main_nav li#more #nav_drop {
+	position: absolute;
+	width: 295px;
+	margin: 10px 0 0 -100px;
+	display: none;
+	z-index: 99999;
+}
+
+#nav_drop_rolloff {
+	position: absolute;
+	width: 395px;
+	height: 500px;
+	margin: -40px 0 0 -150px;
+	display: none;
+	z-index: 1;
+}
+
+#nav_drop_ul {
+	behavior: url(/web/20091002224433im_/http://www.popcap.com/images/iepngfix.htc);
+	float: left;
+	display: inline;
+	width: 295px;
+	background: url(../images/nav_more_drop.png) no-repeat;
+}
+
+*html #nav_drop_ul {
+	height: 300px;	
+}
+
+*html #nav_drop_ul.int {
+	height: 150px;	
+}
+
+ul#main_nav li#more #nav_drop ul {
+	float: left;
+	display: inline;
+	margin: 0;
+	padding:22px 14px 0 14px ;
+	list-style:none;
+}
+
+ul#main_nav li#more #nav_drop li {
+	margin: 0 10px 0 0;
+	padding: 0;
+	background: none;
+	width: 267px;
+}
+
+ul#main_nav li#more #nav_drop li a {
+	margin: 0;
+	padding: 0;
+	background:url(../images/nav_more_bkgd.png) repeat-x bottom left;
+	font-size: 18px;
+	font-weight:bold;
+	width: 100%;
+	color: #666;
+	display:block;
+	text-decoration:none;
+	text-align:left;
+	line-height:50px;
+}
+
+ul#main_nav li#more #nav_drop li a span{
+	padding: 0;
+	background:none;
+}
+
+ul#main_nav li#more #nav_drop li a:hover {
+	background:url(../images/nav_more_roll_bkgd.png) repeat-x bottom left;
+	color:#666;
+}
+
+ul#main_nav li#more #nav_drop li img {
+	behavior: url(/web/20091002224433im_/http://www.popcap.com/images/iepngfix.htc);
+	margin:7px 10px 0 15px;
+	padding:0;
+	width: 35px;
+	height: 35px;
+	float:left;
+	display:inline;
+}
+
+#nav_drop_bottom {
+	behavior: url(/web/20091002224433im_/http://www.popcap.com/images/iepngfix.htc);
+	float: left;
+	display: inline;
+	width: 295px;
+	height: 32px;
+	background: url(../images/nav_more_drop_bottom.png) no-repeat;
+}
+
+
+/* @end */
+
+/* @group Content */
+
+#content {
+	float: left;
+	display: inline;
+	margin-top:0;
+	width: 960px;
+	background: url(../images/wrapper_bkgd.gif) repeat-y;
+	z-index: 1;
+}
+
+/* @end */
+
+/* @group Footer */
+
+#page_footer {
+	float: left;
+	display:inline;
+	width:960px;
+	height: 244px;
+	
+}
+
+body.help #footer {
+	margin-bottom:-24px;  
+/* since feedback bar is missing in help section, this eliminates the yellow bar glitch in Safari*/
+}
+
+#footer {
+	float:left;
+	display: inline;
+	margin-top: -153px;
+	margin-bottom:0px;
+	padding-bottom:0;
+	width: 100%;
+	height: 200px;
+	background: url(../images/footer_bkgd.gif) bottom center no-repeat;
+	text-align: center;
+	border:0px solid red; /*debug*/
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#footer.short {
+		margin-bottom:-24px;
+	}
+}
+	
+#footer p {
+	color: #d5ffae;
+	font-size: 12px;
+	line-height: 20px;
+}
+	
+#footer p.links {
+	font-size: 14px;
+	width: 960px;
+	text-align: center;
+	margin: 150px auto 0 auto;	
+	outline: none;
+}
+	
+#footer a {
+	color: #d5ffae;
+	margin-bottom:0;
+	padding:bottom:0;
+}
+
+#lang {
+	display: inline;
+}
+
+#lang a {
+	padding-right: 15px;
+	background: url(../images/lang_arrow.gif) center right no-repeat;
+	outline: none;
+}
+
+#lang a.clicked {
+	padding-right: 15px;
+	background: url(../images/lang_arrow_dn.gif) center right no-repeat;
+}
+
+#lang_drop {
+	position: absolute;
+	width: 205px;
+	margin: -230px 0 0 600px;
+	display: none;
+	text-align: left;
+	z-index: 99999;
+}
+
+#lang_drop_rolloff {
+	position: absolute;
+	width: 305px;
+	height: 300px;
+	margin: -280px 0 0 550px;
+	display: none;
+}
+
+#lang_drop_ul {
+	behavior: url(/web/20091002224433im_/http://www.popcap.com/images/iepngfix.htc);
+	float: left;
+	display: inline;
+	width: 205px;
+	background: url(../images/lang_drop_bkgd.png) no-repeat;
+}
+
+*html #lang_drop_ul {
+	height: 200px;	
+}
+
+#lang_drop ul {
+	float: left;
+	display: inline;
+	margin: 0;
+	width: 205px;
+	padding:22px 0 0 0 ;
+	list-style:none;
+}
+
+#lang_drop li {
+	float: left;
+	display: inline;
+	margin: 0 14px 0 14px;
+	padding: 0;
+	width: 177px;
+	line-height:35px;
+}
+
+body.games #lang_drop li a,
+#lang_drop li a {
+	margin: 0;
+	padding: 0;
+	background:url(../images/lang_drop_li_bkgd.png) repeat-x top left;
+	font-size: 18px;
+	font-weight:bold;
+	width: 177px;
+	color: #666;
+	display:block;
+	text-decoration:none;
+	text-align:left;
+}
+
+#lang_drop li a span {
+	margin: 0;
+	padding: 0 10px 0 10px;
+}
+
+body.games #lang_drop li.selected a,
+#lang_drop li.selected a {
+	background:url(../images/lang_drop_li_bkgd.png) repeat-x bottom left;
+	color:#888;
+}
+
+body.games #lang_drop li a:hover,
+#lang_drop li a:hover {
+	background:url(../images/lang_drop_li_bkgd.png) repeat-x bottom left;
+	color:#666;
+}
+
+#lang_drop_bottom {
+	behavior: url(/web/20091002224433im_/http://www.popcap.com/images/iepngfix.htc);
+	float: left;
+	display: inline;
+	width: 205px;
+	height: 34px;
+	background: url(../images/lang_drop_bottom.png) no-repeat;
+}
+
+	
+#feedback {
+	clear:both;
+	width: 100%;
+	background-color: #ffd400;
+	text-align: center;
+	line-height: 14px;
+	margin-bottom:-24px;
+}
+
+body.help #feedback {
+	display:none;
+}
+	
+#feedback a {
+	display:block;
+	color: #b24726;
+	padding: 5px 0;
+	font-size: 14px;
+	outline: none;
+}
+
+/* @end */
+
+/* @group generic_pages crap - MOVE THIS */
+
+body.misc h1 {
+	font-size: 24px;
+	line-height:26px;
+	color: #444444;
+	font-weight: 900;
+	margin-bottom:1em;
+}
+
+body.misc h2 {
+	border: none;
+	color: #0090d5;
+	font-size: 18px;
+	margin-bottom: 15px;
+	line-height:20px;
+}
+
+body.terms p {
+	margin-bottom:1em;
+}
+
+body.misc #header {
+	height: 210px;
+	z-index:1;
+}
+
+body.misc #top_nav {
+	margin-top: -290px;
+}
+
+/* main column */
+
+body.misc #main_column {
+	margin-top: -45px;
+	margin-left: 80px;
+	width: 560px;
+	float: left;
+	display: inline;
+	min-height: 600px;
+}
+
+*html body.misc #main_column {
+	margin-top: 0;
+	height: 600px;
+}
+
+*html body.misc #main {
+	margin-top: 0;
+	height: 900px;	
+}
+
+body.misc #main_column h2 {
+	margin-top: 25px;
+}
+
+body.misc #main_column p {
+	color: #444444;
+	font: 14px Arial, Geneva, "Helvetica Neue", Helvetica, sans-serif;
+	line-height: 24px;
+}
+
+body.misc #main_column_subscribe {
+	width: 600px;
+	margin-top: -45px;
+	margin-left: 80px;
+	float: left;
+	display: inline;
+	min-height: 600px;
+	position:relative;
+}
+
+*body.misc #main_column_subscribe {
+	margin-top: 0;
+	height: 1000px;
+}
+
+/* right column */
+
+body.misc #right_col {
+	float: right;
+	display: inline;
+	width: 220px;
+	margin-right: 40px;
+	margin-top: -57px;
+}
+
+*html body.misc #right_col {
+	margin-top: 0px;
+}
+
+body.misc #subnav {
+	font-size: 12px;
+	font-weight: bold;
+	background: url(../images/generic_sidebar_bkgd.jpg) bottom center no-repeat;
+}
+
+body.misc #right_col ul {
+	width: 200px;
+	margin:0 0 0 12px;
+	padding:0 0 15px 0;
+	list-style:none;
+	list-style-position: outside;
+}
+
+body.misc #right_col li {
+	margin:0 0 0 0;
+	padding:0 0 7px 20px;
+	background: url(../images/generic_list_inactive.gif) 0 4px no-repeat;
+}
+
+body.misc #subnav h3 {
+	margin:0 0 5px 12px;
+	font-size:16px;
+	color:#666;
+}
+
+body.misc #subnav li.active {
+	background: url(../images/generic_list_active.gif) 0 4px no-repeat;
+}
+
+body.misc #subnav li.active a {
+	color: #666666;
+	text-decoration: none;
+}
+
+body.misc #subnav_bottom {
+	width: 208px;
+	padding-left:12px;
+	margin-top: 50px;
+}
+
+body.misc #subnav_bottom p {
+	font-size: 14px;
+}
+
+<!-- /* help section */
+
+body.misc #help_main {
+	margin-top: -105px;
+	margin-left: 50px;
+	width: 592px;
+	float: left;	
+	display: inline;
+}
+
+body.misc #help_main li a {
+	font-size: 14px;
+} -->
+
+/* store area  */
+
+#verisign_seal, #bbb_seal, #paypal_seal {
+	margin:8px 0;
+	text-align:center;
+}
+
+
+/* @end */
+/*
+     FILE ARCHIVED ON 22:44:33 Oct 02, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:58:47 Jul 29, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.666
+  exclusion.robots: 0.047
+  exclusion.robots.policy: 0.033
+  esindex: 0.011
+  cdx.remote: 5.798
+  LoadShardBlock: 37.47 (3)
+  PetaboxLoader3.datanode: 37.691 (4)
+  load_resource: 80.851
+  PetaboxLoader3.resolve: 58.707
+*/

@@ -1,0 +1,560 @@
+
+
+h2 {
+	font-size: 1.125em;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #d8d8d8;
+}
+
+#top_nav {
+	margin-top: -372px;
+}
+
+#game_main {
+	float: left;
+	display: inline;
+	width: 960px;
+}
+
+#game_lower {
+	float: left;
+	display: inline;
+	width: 960px;
+}
+
+#about {
+	float: left;
+	display: inline;
+	width: 420px;
+	margin: 0 18px 0 20px;
+	padding-bottom: 20px;
+	align: justify;
+}
+
+#about p {
+	float: left;
+	display: inline;
+	width: 420px;
+	margin-top: 10px;
+}
+
+#about p.award {
+	font-size: 1.125em;
+	font-style: italic;
+}
+
+#system {
+	clear: left;
+	float: left;
+	display: inline;
+	width: 348px;
+	margin: 0 0 0 50px;
+}
+
+#system a.system_reqs {
+	behavior: url(/web/20091002225443im_/http://www.popcap.com/images/iepngfix.htc);
+	float: left;
+	display: inline;
+	width: 176px;
+	margin-top: 10px;
+	background: url(../images/system_reqs_btn.png) top left no-repeat;
+	text-indent: 25px;
+	text-align: center;
+	padding: 13px 0 13px 0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 1;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#system a.system_reqs:hover {
+	background-position: bottom left;
+}
+
+#system_requirements {
+	position: absolute;
+	display: none;
+	width: 392px;
+	margin: -68px 0 0 178px;
+	z-index: 1;
+}
+
+#system_requirements h2 {
+	float: left;
+	display: inline;
+	color: #fff;
+	border: none;
+	margin: 20px 0 0 35px;
+}
+
+#system_requirements table {
+	float: left;
+	display: inline;
+	width: 300px;
+	margin: 0 0 0 40px;
+	color: #fff;
+}
+
+td.sys_req {
+	width:105px;
+}
+
+*html #system_requirements table {
+	margin-top: 40px;
+}
+
+#system_requirements table td {
+	padding: 20px 20px 0 0;
+}
+
+#sys_top {
+	behavior: url(/web/20091002225443im_/http://www.popcap.com/images/iepngfix.htc);
+	float: left;
+	display: inline;
+	width: 392px;
+	background: url(../images/system_reqs_bkgd.png) top left no-repeat;
+}
+
+*html #sys_top {
+	height: 350px;
+}
+
+#sys_bottom {
+	behavior: url(/web/20091002225443im_/http://www.popcap.com/images/iepngfix.htc);
+	float: left;
+	display: inline;
+	width: 392px;
+	height: 25px;
+	background: url(../images/system_reqs_bottom.png) top left no-repeat;
+}
+
+
+#system_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	display: none;
+}
+
+#screenshots {
+	clear: right;
+	float: right;
+	display: inline;
+	width: 460px;
+	margin: 20px 50px 0 -268px;
+}
+
+#screenshots h2 span {
+	font-size: .75em;
+	color: #666;
+}
+
+#screenshots h2 a {
+	cursor: pointer;
+}
+
+#screenshots #screens a,
+#screenshots #vids a {
+	float: left;
+	display: inline;
+	width: 142px;
+	height: 132px;
+	margin: 10px 5px 0 5px;
+	background: url(../images/screens_bkgd.gif) top left no-repeat;
+}
+
+#screenshots img {
+	margin: 18px 0 0 8px;
+}
+
+#outer_container {
+	display: none;
+}
+
+#available_for {
+	clear: left;
+	float: left;
+	display: inline;
+	width: 348px;
+	margin: 50px 0 0 50px;
+}
+
+#available_for a {
+	float: left;
+	display: inline;
+	margin: 10px 9px 0 9px;
+}
+
+#available_for img {
+	behavior: url(/web/20091002225443im_/http://www.popcap.com/images/iepngfix.htc);
+}
+
+#social_networks {
+	clear: left;
+	float: left;
+	display: inline;
+	width: 348px;
+	margin: 50px 0 0 50px;
+}
+
+#social_networks {
+	clear: left;
+	float: left;
+	display: inline;
+	width: 348px;
+	margin: 50px 0 0 50px;
+}
+
+#social_networks a {
+	float: left;
+	display: inline;
+	margin: 10px 10px 0 10px;
+}
+
+#social_networks img {
+	behavior: url(/web/20091002225443im_/http://www.popcap.com/images/iepngfix.htc);
+}
+
+#other_games {
+	clear: right;
+	float: right;
+	display: inline;
+	width: 460px;
+	margin: 50px 50px 0 0;
+}
+
+#other_games a {
+	behavior: url(/web/20091002225443im_/http://www.popcap.com/images/iepngfix.htc);
+	float: left;
+	display: inline;
+	margin: 10px 18px 0 0;
+}
+
+#other_games img {
+	behavior: url(/web/20091002225443im_/http://www.popcap.com/images/iepngfix.htc);
+}
+
+/* VIDEO */
+
+#TBV_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	background-color:#000;
+	filter:alpha(opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+	display: none;
+}
+
+* html #TBV_overlay { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TBV_window {
+	position: fixed;
+	background: url(../images/video_lrg_bkgd.png) top left no-repeat;
+	z-index: 102;
+	color:#000000;
+	display:none;	
+	text-align:left;
+	height: 445px;
+	width: 760px;
+	margin-left: -380px;
+	margin-top: -225px;
+	top:50%;
+	left:50%;
+	opacity: 1;
+}
+
+* html #TBV_window { /* ie6 hack */
+background: url(../images/video_lrg_bkgd.gif) top left no-repeat;
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TBV_video {
+	float: left;
+	display: inline;
+	margin:20px 0 0 20px;
+	overflow: auto;
+}
+
+#TBV_closeWindow {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	margin: -10px 0 0 720px;
+}
+
+#TBV_closeWindow a {
+	behavior: url(/web/20091002225443im_/http://www.popcap.com/images/iepngfix.htc);
+	display: block;
+	height: 50px;
+	width: 50px;
+	background: url(../images/close_btn.png) top left no-repeat;
+	text-indent: -9999px;
+	outline: 0;
+}
+
+#TBV_closeWindow a:hover {
+	cursor: pointer;
+	background-position: bottom;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> global settings needed for thickbox <<<-----------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+*{padding: 0; margin: 0;}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox specific link and font settings <<<------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_window {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+#TB_secondLine {
+	font: 10px Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+
+#TB_window a:link {color: #666666;}
+#TB_window a:visited {color: #666666;}
+#TB_window a:hover {color: #000;}
+#TB_window a:active {color: #666666;}
+#TB_window a:focus{color: #666666;}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox settings <<<-----------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+}
+
+.TB_overlayMacFFBGHack {background: url(../images/macffbghack.png) repeat;}
+.TB_overlayBG {
+	background-color:#000;
+	filter:alpha(opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+}
+
+* html #TB_overlay { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_window {
+	position: fixed;
+	background: url(../images/screenshots_lrg_bkgd.png) top left no-repeat;
+	z-index: 102;
+	color:#000000;
+	display:none;	
+	text-align:left;
+	height: 496px;
+	top:50%;
+	left:50%;
+}
+
+* html #TB_window { /* ie6 hack */
+background: url(../images/screenshots_lrg_bkgd.gif) top left no-repeat;
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_window img#TB_Image {
+	display:block;
+	margin: 20px 20px 0 20px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #666;
+	border-left: 1px solid #666;
+}
+
+#TB_next a {
+	position:absolute;
+	width: 50px;
+	height: 50px;
+	background: url(../images/next_btn.png) top left no-repeat;
+	text-indent: -9999px;
+	outline: 0;
+	margin: 15px 0 0 90px;
+}
+
+* html #TB_next a {
+	background: url(../images/next_btn.gif) top left no-repeat;
+}
+
+#TB_prev a {
+	position:absolute;
+	width: 50px;
+	height: 50px;
+	background: url(../images/prev_btn.png) top left no-repeat;
+	text-indent: -9999px;
+	outline: 0;
+	margin: 15px 0 0 20px;
+}
+
+* html #TB_prev a {
+	background: url(../images/prev_btn.gif) top left no-repeat;
+}
+
+#TB_next a:hover,
+#TB_prev a:hover {
+	background-position: bottom;
+}
+
+#TB_count {
+	float:right;
+	display: inline;
+	width: 96px;
+	height: 50px;
+	margin: 15px 12px 0 0;
+	background: url(../images/screenshots_count_bkgd.png) top left no-repeat;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	padding-top: 14px;
+	font-weight: bold;
+}
+
+* html #TB_count {
+	background: url(../images/screenshots_count_bkgd.gif) top left no-repeat;
+}
+
+#TB_closeWindow {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	margin: -430px 0 0 530px;
+}
+
+#TB_closeWindow a {
+	behavior: url(/web/20091002225443im_/http://www.popcap.com/images/iepngfix.htc);
+	display: block;
+	height: 50px;
+	width: 50px;
+	background: url(../images/close_btn.png) top left no-repeat;
+	text-indent: -9999px;
+	outline: 0;
+}
+
+#TB_closeWindow a:hover {
+	background-position: bottom;
+}
+
+#TB_closeAjaxWindow{
+	padding:7px 10px 5px 0;
+	margin-bottom:1px;
+	text-align:right;
+	float:right;
+}
+
+#TB_ajaxWindowTitle{
+	float:left;
+	padding:7px 0 5px 10px;
+	margin-bottom:1px;
+}
+
+#TB_title{
+	background-color:#e8e8e8;
+	height:27px;
+}
+
+#TB_ajaxContent{
+	clear:both;
+	padding:2px 15px 15px 15px;
+	overflow:auto;
+	text-align:left;
+	line-height:1.4em;
+}
+
+#TB_ajaxContent.TB_modal{
+	padding:15px;
+}
+
+#TB_ajaxContent p{
+	padding:5px 0px 5px 0px;
+}
+
+#TB_load{
+	position: fixed;
+	display:none;
+	height:13px;
+	width:208px;
+	z-index:103;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -104px; /* -height/2 0 0 -width/2 */
+}
+
+* html #TB_load { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_HideSelect{
+	z-index:99;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background-color:#fff;
+	border:none;
+	filter:alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+	height:100%;
+	width:100%;
+}
+
+* html #TB_HideSelect { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_iframeContent{
+	clear:both;
+	border:none;
+	margin-bottom:-1px;
+	margin-top:1px;
+	_margin-bottom:1px;
+}
+/*
+     FILE ARCHIVED ON 22:54:43 Oct 02, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:58:48 Jul 29, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.432
+  exclusion.robots: 0.035
+  exclusion.robots.policy: 0.026
+  esindex: 0.007
+  cdx.remote: 10.376
+  LoadShardBlock: 105.085 (3)
+  PetaboxLoader3.datanode: 71.125 (4)
+  PetaboxLoader3.resolve: 77.807 (2)
+  load_resource: 55.158
+*/
