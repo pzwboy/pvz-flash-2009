@@ -16,7 +16,7 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
 *******************************************************************************/
 
 // Ad Settings
-var Ad_Duration = 0;						// Seconds
+var Ad_Duration = 15;						// Seconds
 var Ad_Width = null;						// If set to 'null', the width of the game screen is used
 var Ad_Height = null;						// If set to 'null', the height of the game screen is used
 var Game_BgColor = 'lightsteelblue';
@@ -25,10 +25,10 @@ var Run_Midroll = false;
 var Run_Postroll = false;
 
 // Ad Page(s)
-var Preroll_Src_Path = '';
-var Midroll_Src_Path = '';
-var Postroll_Src_Path = '';
-var Min_Time_Between_Ads = 0;				// Seconds
+var Preroll_Src_Path = 'preroll.html';
+var Midroll_Src_Path = 'midroll.html';
+var Postroll_Src_Path = 'postroll.html';
+var Min_Time_Between_Ads = 60;				// Seconds
 
 // Upsell Settings
 var Enable_Upsell = true;
@@ -243,7 +243,7 @@ popCapFlashGame.prototype.write = function()
     this.objectSetup += 'bgcolor="#000000" ';
     this.objectSetup += 'swLiveConnect="true" ';
     this.objectSetup += 'FlashVars="'+this.getParams()+'" ';
-    this.objectSetup += 'pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed>\r\n';
+    this.objectSetup += 'pluginspage="https://web.archive.org/web/20091003074114/http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed>\r\n';
     this.objectSetup += '</div>\r\n';
     this.objectSetup += '<!--<![endif]-->\r\n';
     this.objectSetup += '<!--[if IE]>\r\n';
@@ -251,7 +251,7 @@ popCapFlashGame.prototype.write = function()
     if (this.hide) this.objectSetup += ' style="visibility: hidden;"';
 	this.objectSetup += '>\r\n';
     this.objectSetup += '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" ';
-    this.objectSetup += 'codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" ';
+    this.objectSetup += 'codebase="https://web.archive.org/web/20091003074114/http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" ';
     this.objectSetup += 'id="'+this.id+'" ';
     this.objectSetup += 'width="'+this.width+'" ';
     this.objectSetup += 'height="'+this.height+'">\r\n';
@@ -403,7 +403,7 @@ function adSpot(id, theGame)
 	adSpot.prototype.adObject = null;
 	adSpot.prototype.ownerContainer = null;
     adSpot.prototype.globalTimer = null;
-	adSpot.prototype.prerollSrc = '';	
+	adSpot.prototype.prerollSrc = 'preroll.html';	
 	adSpot.prototype.ownerBgcolor = 'white';
     adSpot.prototype.showPreroll = false;
 	adSpot.prototype.showMidroll = false;
@@ -412,8 +412,8 @@ function adSpot(id, theGame)
 	adSpot.prototype.breakEvent = '';
 	adSpot.prototype.isOwnerLoaded = false;
     adSpot.prototype.wait = 60;
-	adSpot.prototype.midrollSrc = '';
-	adSpot.prototype.postrollSrc = '';
+	adSpot.prototype.midrollSrc = 'midroll.html';
+	adSpot.prototype.postrollSrc = 'postroll.html';
 
     adSpot.prototype.isInIE = (document.all != null);
 }
