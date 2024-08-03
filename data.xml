@@ -28,7 +28,8 @@
   </upsell>
   
   <cheats>
-    <enabled>false</enabled>
+    <enabled>true</enabled>
+    <!-- 此处为作弊模式，默认值false为关闭，true为打开。 -->
     
     <bind keyCombo="`">globalPause</bind>
     <!-- Framework controls -->
