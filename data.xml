@@ -28,8 +28,7 @@
   </upsell>
   
   <cheats>
-    <enabled>true</enabled>
-    <!-- 此处为开发人员为测试游戏功能而设的作弊模式，“4399小游戏”网站中的“无敌版”便是调用了此功能，默认值false为关闭，改为true可打开。 -->
+    <enabled>false</enabled>
     
     <bind keyCombo="`">globalPause</bind>
     <!-- Framework controls -->
