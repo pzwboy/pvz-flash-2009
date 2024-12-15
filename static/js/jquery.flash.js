@@ -192,7 +192,7 @@ $$.hasFlash.playerVersion = function() {
 $$.htmlOptions = {
 	height: 240,
 	flashvars: {},
-	pluginspage: 'https://web.archive.org/web/20091002224927/http://www.adobe.com/go/getflashplayer',
+	pluginspage: 'http://www.adobe.com/go/getflashplayer',
 	src: '#',
 	type: 'application/x-shockwave-flash',
 	width: 320
@@ -229,7 +229,7 @@ $$.update = function(htmlOptions) {
 	var url = String(location).split('?');
 	url.splice(1,0,'?hasFlash=true&');
 	url = url.join('');
-	var msg = '<p>This content requires the Flash Player. <a href="https://web.archive.org/web/20091002224927/http://www.adobe.com/go/getflashplayer">Download Flash Player</a>. Already have Flash Player? <a href="'+url+'">Click here.</a></p>';
+	var msg = '<p>This content requires the Flash Player. <a href="http://www.adobe.com/go/getflashplayer">Download Flash Player</a>. Already have Flash Player? <a href="'+url+'">Click here.</a></p>';
 	this.innerHTML = '<span class="alt">'+this.innerHTML+'</span>';
 	jQuery(this)
 		.addClass('flash-update')

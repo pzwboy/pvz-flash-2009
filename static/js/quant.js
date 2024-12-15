@@ -101,7 +101,7 @@ function quantserve(){
 
 
  var dg="E6409-W-MS-7";
- var qs="https://web.archive.org/web/20090925015848/http://pixel.quantserve.com";
+ var qs="http://pixel.quantserve.com";
  var fp=_qcsc(media);
  if(window.location && window.location.href)url=_qceuc(window.location.href);
  if(window.document && window.document.referrer)ref=_qceuc(window.document.referrer);
